@@ -1,0 +1,66 @@
+*{
+    margin: none;
+    padding: none;
+    box-sizing: border-box;
+
+}
+
+.navbar{
+    display: flex;
+    background-color: black;
+    height: 50px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 15px;
+    position: sticky;
+    top: 0px;
+}
+
+a:hover{
+    color: blue;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.lib{
+    padding-right: 500px;
+}
+.books{
+    padding-left: 150px;
+}
+.reg{
+    padding-left: 30px;
+}
+.con{
+    padding-left: 30px;
+}
+.log{
+    padding-left: 30px;
+}
+
+.card-1{
+    width: 600px;
+    height: 500px;
+    background-color: blue;
+    /* display: flex; */
+    position: relative;
+    top: 50px;
+    left: 250px;
+
+}
+.card-1>.heading{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.card-2{
+    width: 600px;
+    height: 500px;
+    background-color: rgb(223, 31, 31);
+    /* display: flex; */
+    position: relative;
+    top: 50px;
+    left: 250px;
+    
+}
